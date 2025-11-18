@@ -6,7 +6,7 @@ PATH = "content"
 
 TIMEZONE = 'Australia/NSW'
 
-DEFAULT_LANG = 'ch'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -33,3 +33,31 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+#Meun Setting
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
+
+# MENUITEMS = [
+#     ('Home', '/'),
+#     ('About', '/pages/about.html'),
+#     ('Classes', '/pages/classes.html'),
+#     ('Blog', '/'),
+#     ('Contact', '/pages/contact.html'),
+# ]
+
+# Theme
+THEME = 'themes/Flex'
+
+SITENAME = 'Ark Academy Macau'
+SITESUBTITLE = 'Small-group statistics learning in Macau'
+SITEURL = 'https://arkacademymacau.com'
+
+# Optional social / meta
+AUTHOR = 'Your Name'
+TIMEZONE = 'Asia/Macau'
+DEFAULT_LANG = 'en'
+
+# If you don’t want “category” in URLs later:
+ARTICLE_URL = 'blog/{slug}/'
+ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
