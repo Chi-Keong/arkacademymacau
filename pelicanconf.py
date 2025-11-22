@@ -35,6 +35,8 @@ DEFAULT_PAGINATION = 10
 # RELATIVE_URLS = True
 
 #Meun Setting
+RELATIVE_URLS = True
+
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
@@ -47,7 +49,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 # ]
 
 # Theme
-THEME = 'themes/Flex'
+THEME = 'themes/mediumfox'
 
 SITENAME = 'Ark Academy Macau'
 SITESUBTITLE = 'Small-group statistics learning in Macau'
