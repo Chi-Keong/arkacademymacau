@@ -16,18 +16,18 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
-)
+# LINKS = (
+#     ("Pelican", "https://getpelican.com/"),
+#     ("Python.org", "https://www.python.org/"),
+#     ("Jinja2", "https://palletsprojects.com/p/jinja/"),
+#     ("You can modify those links in your config file", "#"),
+# )
 
 # Social widget
-SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
-)
+# SOCIAL = (
+#     ("You can add links in your config file", "#"),
+#     ("Another social link", "#"),
+# )
 
 DEFAULT_PAGINATION = 10
 
@@ -37,19 +37,19 @@ DEFAULT_PAGINATION = 10
 #Meun Setting
 RELATIVE_URLS = True
 
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
-# MENUITEMS = [
-#     ('Home', '/'),
-#     ('About', '/pages/about.html'),
-#     ('Classes', '/pages/classes.html'),
-#     ('Blog', '/'),
-#     ('Contact', '/pages/contact.html'),
-# ]
+MENUITEMS = [
+    ('Home',  '/'),
+    ('About',  '/pages/about.html'),
+    ('Classes',  '/pages/classes.html'),
+    # ('Blog', '/archives.html'),
+    ('Contact', '/pages/contact.html'),
+]
 
 # Theme
-THEME = 'themes/mediumfox'
+THEME = 'themes/new-bootstrap2/new-bootstrap2'
 
 SITENAME = 'Ark Academy Macau'
 SITESUBTITLE = 'Small-group statistics learning in Macau'
@@ -61,5 +61,11 @@ TIMEZONE = 'Asia/Macau'
 DEFAULT_LANG = 'en'
 
 # If you don’t want “category” in URLs later:
-ARTICLE_URL = 'blog/{slug}/'
-ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
+# ARTICLE_URL = 'blog/{slug}/'
+# ARTICLE_SAVE_AS = 'blog/{slug}/index.html'
+
+STATIC_PATHS = ['extra']
+EXTRA_PATH_METADATA = {
+    'extra/custom.css': {'path': 'static/custom.css'},
+}
+CUSTOM_CSS = 'static/custom.css'

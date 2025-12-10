@@ -1,3 +1,6 @@
 [submodule "themes/mediumfox"]
 	path = themes/mediumfox
 	url = https://github.com/cprieto/pelican-mediumfox.git
+[submodule "themes/new-bootstrap2"]
+	path = themes/new-bootstrap2
+	url = https://github.com/getpelican/pelican-themes.git

@@ -1,4 +1,4 @@
-Title: About Ark Academy Macau
+Title: About
 
 Ark Academy Macau is a small, focused learning space dedicated to making statistics easier to understand.
 

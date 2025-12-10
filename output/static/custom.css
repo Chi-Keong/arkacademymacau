@@ -1,0 +1,4 @@
+/* Hide the right-hand sidebar (Categories, Blogroll, etc.) */
+.sidebar-nav {
+    display: none;
+}
